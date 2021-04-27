@@ -16,6 +16,11 @@ struct MockTile
     }
 }
 
+// Uses Dictionaries
+// init1 just sets a bool for value
+// init2 creates a new instance of Mocktile for each value
+
+
 public class Tiles_test_nh : MonoBehaviour
 {
     public Dictionary<Vector2, bool> tileSet1 = new Dictionary<Vector2, bool>();
